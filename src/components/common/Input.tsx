@@ -20,7 +20,7 @@ const Input: React.FC<InputProps> = ({ label, classNames, ...props }) => {
                 </label>
             )}
             <input
-                className={`p-3 w-full rounded-[10px] bg-[#224957] text-white text-[14px] font-normal ${classNames?.input}`}
+                className={`p-3 w-full placeholder-white rounded-[10px] bg-[#224957] text-white text-[14px] font-normal ${classNames?.input}`}
                 {...props}
             />
         </div>

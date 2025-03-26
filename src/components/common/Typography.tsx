@@ -22,10 +22,10 @@ const Typography: React.FC<TypographyProps> = ({
 
 // Define base styles for each variant
 const baseStyles: Record<string, string> = {
-  h1: "text-[64px] font-semibold",
+  h1: "md:text-[64px] text-[48px] font-semibold",
   h2: "md:text-[48px] text-[32px] font-semibold",
   h3: "md:text-[24px] text-[16px]",
-  h4: "text-[20px] font-medium",
+  h4: "md:text-[20px] text-[16px] font-medium",
   p: "text-[14px] font-normal",
   span: "text-[16px]",
   small: "text-xs",
