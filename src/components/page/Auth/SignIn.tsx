@@ -21,7 +21,7 @@ const SignIn = ({
 }: SignInProps) => {
   return (
     <div className="flex flex-col items-center h-screen w-full">
-      <div className="max-w-[300px] w-full flex items-center flex-col gap-6 h-full justify-center">
+      <div className=" max-w-[428px] max-md:px-6 md:max-w-[300px] w-full flex items-center flex-col gap-6 h-full justify-center">
         <Typography variant="h1" className=" mb-[14px]">
           {" "}
           Sign in{" "}

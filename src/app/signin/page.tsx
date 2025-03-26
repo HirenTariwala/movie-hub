@@ -1,6 +1,7 @@
 "use client";
-import SignIn from "@/components/page/Auth/SignIn";
 import { useSignIn } from "./useSignIn";
+const SignIn = dynamic(() => import('@/components/page/Auth/SignIn'));
+import dynamic from "next/dynamic";
 
 export default function SignInPage() {
     const {

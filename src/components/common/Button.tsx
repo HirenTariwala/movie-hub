@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({
 
     return (
         <button
-            className={`${baseStyles} ${variantStyles[variant]}  ${className}`}
+            className={`${baseStyles} ${variantStyles[variant]} cursor-pointer transition-all transition duration-500 ${className}`}
             {...props}
         >
             {children}
